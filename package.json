@@ -1,0 +1,22 @@
+{
+  "name": "storybookjs",
+  "version": "1.0.0",
+  "description": "by Nguyen Manh Quyen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imtomq/storybookjs.git"
+  },
+  "keywords": [
+    "storybookjs"
+  ],
+  "author": "NguyenManhQuyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imtomq/storybookjs/issues"
+  },
+  "homepage": "https://github.com/imtomq/storybookjs#readme"
+}
