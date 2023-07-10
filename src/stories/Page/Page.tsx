@@ -1,10 +1,9 @@
-import React from 'react';
-import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
-import Container from '@mui/material/Container';
-import Link from '@mui/material/Link';
-
-import { Header } from './Header';
+import React from "react";
+import Box from "@mui/material/Box";
+import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
+import Link from "@mui/material/Link";
+import { Header } from "../Header/Header";
 
 interface User {
   name: string;
@@ -17,23 +16,23 @@ export const Page = () => {
     <Box component="article">
       <Header
         user={user}
-        onLogin={() => setUser({ name: 'Jane Doe' })}
+        onLogin={() => setUser({ name: "Jane Doe" })}
         onLogout={() => setUser(undefined)}
-        onCreateAccount={() => setUser({ name: 'Jane Doe' })}
+        onCreateAccount={() => setUser({ name: "Jane Doe" })}
       />
 
       <Container component="section">
         <Box pt={3}>
           <Typography variant="h2">Pages in Storybook</Typography>
           <Typography variant="body1">
-            We recommend building UIs with a{' '}
+            We recommend building UIs with a{" "}
             <Link
               href="https://componentdriven.org"
               target="_blank"
               rel="noopener noreferrer"
             >
               <strong>component-driven</strong>
-            </Link>{' '}
+            </Link>{" "}
             process starting with atomic components and ending with pages.
           </Typography>
           <Typography variant="body1">
@@ -52,7 +51,7 @@ export const Page = () => {
             </li>
           </ul>
           <Typography variant="body1">
-            Get a guided tutorial on component-driven development at{' '}
+            Get a guided tutorial on component-driven development at{" "}
             <Link
               href="https://storybook.js.org/tutorials/"
               target="_blank"
@@ -60,7 +59,7 @@ export const Page = () => {
             >
               Storybook tutorials
             </Link>
-            . Read more in the{' '}
+            . Read more in the{" "}
             <Link
               href="https://storybook.js.org/docs"
               target="_blank"
@@ -72,7 +71,7 @@ export const Page = () => {
           </Typography>
           <Typography variant="body2" component="div">
             <span className="tip">Tip</span> Adjust the width of the canvas with
-            the{' '}
+            the{" "}
             <svg
               width="10"
               height="10"

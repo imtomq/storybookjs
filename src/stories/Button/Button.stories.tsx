@@ -5,7 +5,6 @@ import Stack from "@mui/material/Stack";
 import { Button } from "./Button";
 
 const meta: Meta<typeof Button> = {
-  title: "Example/Button",
   component: Button,
   tags: ["autodocs"],
 };
